@@ -1,0 +1,155 @@
+#particle-canvas {
+    width: 100%;
+    height: 100%;
+    background-color:transparent;
+    // background: linear-gradient(to bottom, rgb(10, 10, 50) 0%, rgb(60, 10, 60) 100%);
+    vertical-align: baseline;
+    position: absolute;
+}
+
+
+.header {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+
+    background-color: #000;
+    position: relative;
+
+        
+}
+
+.logo__main {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    align-items: center;
+
+    @media screen and (min-width: 1280px) {
+        gap: 10px;
+    }
+}
+
+.logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 60px;
+
+    @media screen and (min-width: 768px) {}
+}
+
+.logo__header {
+    display: none;
+    color: #ff6b08;
+    padding-top: 40px;
+    @media screen and (min-width: 768px) {
+        display: flex;
+    }
+}
+
+.logo__icon {
+    margin-top: 40px;
+}
+
+.search {
+    position: relative;
+}
+
+.search-form {
+    display: flex;
+    margin-top: 50px;
+
+    align-items: center;
+    justify-content: center;
+}
+
+.js-search-form {}
+
+.search-field {
+    min-width: 280px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #ff6b08;
+    outline: none;
+    color: white;
+
+    @media screen and (min-width: 768px) {
+        width: 336px;
+    }
+
+    @media screen and (min-width: 1280px) {
+        width: 394px;
+    }
+}
+
+.search-btn {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #ff6b08;
+}
+
+.search-icon {}
+
+.header-form__warning {
+    color: #ff6b08;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.nav {
+    display: flex;
+    gap: 40px;
+
+    color: white;
+}
+
+.nav__item {
+    margin-top: 40px;
+}
+
+.nav__link {
+    color: white;
+    font-size: 12px;
+    line-height: 1.2;
+    text-transform: uppercase;
+
+    &:hover,
+    &:focus {
+        color: #ff6b08;
+    }
+}
+
+.current {
+    border-bottom: 3px solid #ff6b08;
+}
+
+.header-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding-bottom: 60px;
+}
+
+.is-hidden {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+}
+
+.filter-ab {
+    
+    text-align: center;
+    &:not(:last-child) {
+        margin-right: 20px;
+    }
+    
+
+}
+
+.filter-container {
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 30px;
+}

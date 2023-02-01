@@ -1,0 +1,12 @@
+import './sass/index.scss';
+import './js/FilmAPI.js';
+import './js/loader.js';
+import './js/lS-lib.js';
+import './js/renderLib';
+import './js/footer-modal';
+import './js/refs-lib';
+import './js/modal-card-lib';
+import './js/localStorage';
+import './js/trailer';
+import './js/up';
+import './js/animhd';
